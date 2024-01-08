@@ -362,25 +362,27 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before {
-    width: 90%;  /* Adjusted to 90% */
+
+.skills-content .right .line.html::before {
+    width: 90%;  /* Set to 90% for HTML skill */
 }
 
-.skills-content .right .css::before {
-    width: 90%;  /* Adjusted to 90% */
+.skills-content .right .line.css::before {
+    width: 90%;  /* Set to 90% for CSS skill */
 }
 
-.skills-content .right .js::before {
-    width: 90%;  /* Adjusted to 90% */
+.skills-content .right .line.js::before {
+    width: 90%;  /* Set to 90% for JavaScript skill */
 }
 
-.skills-content .right .php::before {
-    width: 90%;  /* Adjusted to 90% */
+.skills-content .right .line.react::before {
+    width: 90%;  /* Set to 90% for React skill */
 }
 
-.skills-content .right .mysql::before {
-    width: 90%;  /* Adjusted to 90% */
+.skills-content .right .line.wordpress::before {
+    width: 90%;  /* Set to 90% for WordPress skill */
 }
+
 
 
 /* teams section styling */
