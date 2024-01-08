@@ -351,13 +351,13 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 90%;
-    background: lightgrey;
+    background: crimson;
     position: relative;
 }
 .skills .skills-content .right .line::before{
     content: "";
     position: absolute;
-    height: 100%;
+    height: 90%;
     left: 0;
     top: 0;
     background: crimson;
