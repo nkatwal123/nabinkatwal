@@ -363,25 +363,35 @@ section .title::after{
     background: crimson;
 }
 
-.skills-content .right .line.seo::before {
-    width: 90%;  /* Set to 90% for HTML skill */
+.line.python {
+    width: 90%;
+    background: #4caf50;
 }
 
-.skills-content .right .line.css::before {
-    width: 90%;  /* Set to 90% for CSS skill */
+.line.sql {
+    width: 90%;
+    background: #2196f3;
 }
 
-.skills-content .right .line.js::before {
-    width: 90%;  /* Set to 90% for JavaScript skill */
+.line.numpy {
+    width: 85%;
+    background: #f44336;
 }
 
-.skills-content .right .line.react::before {
-    width: 90%;  /* Set to 90% for React skill */
+.line.pandas {
+    width: 85%;
+    background: #ff9800;
 }
 
-.skills-content .right .line.wordpress::before {
-    width: 90%;  /* Set to 90% for WordPress skill */
+.line.scikit-learn {
+    width: 80%;
+    background: #9c27b0;
 }
+.line.flask {
+    width: 80%;
+    background: #e67e22; /* Adjust the color as desired */
+}
+
 
 
 
